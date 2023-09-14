@@ -56,7 +56,6 @@ function updateTimeAndDate() {
     timeElement.textContent = time;
     dateElement.textContent = `${dayOfWeek}, ${month},${date}`;
 }
-
 // Update time and date immediately
 updateTimeAndDate();
 
